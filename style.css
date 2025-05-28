@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.xylo {
+    max-width: 800px;
+    max-height: 600px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes-diese__item,
+.notes__item {
+    background: url(images/G.png) center/cover;
+    grid-column: span 2;
+    vertical-align: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    font-weight: 600;
+    color: white;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px rgb(33, 33, 33);
+    border: 1px solid black;
+}
+
+.notes-diese__item {
+    align-self: end;
+}
+
+.notes__item.C4 {
+    box-shadow: 2px 2px 5px rgb(31, 31, 31);
+}
+
+.notes-diese {
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+    height: 50%;
+    z-index: 10;
+    position: relative;
+    top: 20px
+}
+
+.notes {
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+    height: 50%;
+}
+
+.b {
+    grid-row: 1;
+}
+
+.b.C1 {
+    grid-column: 4 / 6;
+}
+
+.b.D1 {
+    grid-column: 6 / 8;
+}
+
+.b.F1 {
+    grid-column: 10 / 12;
+}
+
+.b.G1 {
+    grid-column: 12 / 14;
+}
+
+.b.A1 {
+    grid-column: 14 / 16;
+}
+
+.b.C2 {
+    grid-column: 18 / 20;
+}
+
+.b.D2 {
+    grid-column: 20 / 22;
+}
+
+.b.F2 {
+    grid-column: 24 / 26;
+}
+
+.b.G2 {
+    grid-column: 26 / 28;
+}
+
+.b.A2 {
+    grid-column: 28 / 30;
+}
+
+.b.C3 {
+    grid-column: 32 / 34;
+}
+
+.b.D3 {
+    grid-column: 34 / 36;
+}
+
+.b.F3 {
+    grid-column: 38 / 40;
+}
+
+.b.G3 {
+    grid-column: 40 / 42;
+}
+
+.b.A3 {
+    grid-column: 42 / 44;
+}
+
+.b.C4 {
+    grid-column: 46 / 48;
+}
+
+.b.D4 {
+    grid-column: 48 / 50;
+}
+
+.b.F4 {
+    grid-column: 52 / 54;
+}
+
+.b.G4 {
+    grid-column: 54 / 56;
+}
+
+.b.A4 {
+    grid-column: 56 / 58;
+}
